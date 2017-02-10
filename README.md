@@ -1,5 +1,6 @@
 # foodopendata-digitization
 Automated extraction of data from food labels pictures
+https://hack.opendata.ch/project/67
 
 ## Scope and process
 - INPUT: food label picture
@@ -7,6 +8,8 @@ Automated extraction of data from food labels pictures
   - AI semantic segmentation problem here, ingredients and nutrition facts datasets exists for machine learning:
     - https://www.crowdai.org/challenges/openfood-nutrition-table-challenge#resources
     - https://www.crowdai.org/challenges/openfood-ingredients-list-challenge#resources
+  - A blog post on machine learning to identify letters in an image (slightly off topic but the process is inspiring)
+    - http://francescopochetti.com/text-recognition-natural-scenes/
 - PROCESS: clean the cropped data area of the picture to make them OCRable (rotation, brightness/contrast, ...)
 - PROCESS: OCR and parse the text stream
 - OUTPUT: structured data, that should ideally be storable
